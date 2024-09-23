@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="tituloPrincipal">
+        🚀 Juan Pablo Di Mauro 🚀
+    </h1>
+        <button id="botonP" onclick="proyecto()">Proyectos</button>
+        <button onclick="SobreMi()" id="botonSM">sobre mi</button>
+        <button id="botonC" onclick="contactame()"> contacto </a></button>
+    <div>
+        <img id="imagenMia" src="ImagenJuan.jpeg" alt="">
+        <p id="presentacion">Hola! soy Juan Pablo Di Mauro, estudiante de la universidad tecnologica nacional FRGP, 
+            acualmente me encuentro cursando la carrera Tecnicatura Universitaria de Programacion. 
+            Mientras tanto, realizo un aplicacion de escritorio para gestionar una empresa familiar
+            de carpinteria. Continuando y mejorando el proyecto de Laboratorio II 
+        </p>
+        <button id="OcultarSM" onclick="Ocultar1()">Ocultar</button>
+    </div>
+    <div>
+        <a href="https://github.com/JuanPabloDiMauro/ProyectoLab2.git" target="_blank">
+            <img id="imagenCarpin" src="A&A.jpeg" alt="A&A Taller Carpinteria">
+            <p id="DescImagen">
+            Proyecto Final Laboratorio II
+            Gestion de un taller de carpinteria 
+            </p>
+        </a>
+    </div>
+    <div id="app">
+        <a href="https://github.com/SantiGiussani/tp-winform-equipo-8B.git" target="_blank">
+            <img id="imagenApp" src="app escritorio.png" alt="">
+            <p id="DescImagenApp">
+            Proyecto de Programacion III 
+            Applicacion generica de gestion de articulos
+            </p>
+        </a>
+    </div>
+    <div id="formulario">
+        <h1>📱 contactame 📱</h1>
+        <form action="https://formsubmit.co/juanpablodimauro@gmail.com" method="post">
+            <div id="div1">
+                Nombre : 
+                <input type="text" name="Nombre" id="nombre">
+            </div>
+            <div id="div2">
+                Apellido :
+                <input type="text" name="Apellido" id="Apellido">
+            </div>
+            <div id="div3">
+                Telefono :
+                <input type="text" name="Telefono" id="telefono">
+            </div>
+            <div id="div4">
+                mensaje :
+                <input type="text" name="mensaje" id="mensaje">
+            </div>
+            <button id="enviar" onclick="enviar()">enviar</button>
+
+            <a href="https://www.linkedin.com/in/juan-pablo-di-mauro-143818234/?trk=opento_sprofile_pfeditor" target="_blank"> <img src="linkedin.png" alt="linkedin" id="linkedin"> </a>
+
+            <input type="hidden" name="_next" value="https://juanpablodimauro.github.io/Mi-portfolio/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </div>
+    <button onclick="Ocultar()" id="Ocultar">Ocultar</button>
+    <div>
+        <h1 id="tituloSkills"> skills </h1>
+        <h1 id="skills1"> c++</h1>
+        <h1 id="skills2"> c# </h1>
+        <h1 id="skills3"> sql </h1>
+    </div>
+</body>
+</html>     

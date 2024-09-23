@@ -1,0 +1,221 @@
+body{
+    background-image: url(blanco\ y\ negro.png);
+}
+
+#tituloPrincipal{
+    text-align: center;
+    color: white;
+}
+
+#linkedin{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
+
+#formulario{
+    visibility: hidden;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+#div1{
+    position: absolute;
+    top: 75px;
+    left: 0;
+}
+
+#div2{
+    position: absolute;
+    top: 125px;
+    left: 0;
+}
+
+#div3{
+    position: absolute;
+    top: 175px;
+    left: 0;
+}
+
+#div4{
+    position: absolute;
+    top: 225px;
+    left: 0;
+}
+
+#mensaje{
+    height: 40px;
+}
+
+#enviar{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+#presentacion{
+    visibility: hidden;
+    text-align: center;
+    color: white;
+    width: 500px;
+    height: 250px;
+    background-color: grey;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#botonP{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#botonSM{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+#botonC{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+#Ocultar{
+    visibility: hidden;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+}
+
+#OcultarSM{
+    visibility: hidden;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 275px;
+    right: 710px;
+}
+
+#sm{
+    color: rgb(0, 0, 0);
+    width: 850px;
+    height: 150px;
+    background: rgb(199, 198, 198);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 26px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#sobremi{
+    font-size: 20px;
+    color: black;
+    width: 850px;
+    height: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+#imagenMia{
+    visibility: hidden;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+
+#imagenCarpin{
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+#DescImagen{
+    visibility: hidden;
+    background-color: beige;
+    width: 400px;
+    position: absolute;
+    top: 300px;
+    right: 10px;
+}
+
+#imagenApp{
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    right: 10px;
+}
+
+#DescImagenApp{
+    visibility: hidden;
+    background-color: beige;
+    width: 400px;
+    position: absolute;
+    top: 600px;
+    right: 10px;
+}
+
+#skills1{
+    position: absolute;
+    bottom: 0;
+    left: 850px;
+    color: grey;
+    
+}
+
+#skills2{
+    position: absolute;
+    bottom: 0;
+    left: 950px;
+    color: grey;
+    
+}
+
+#skills3{
+    position: absolute;
+    bottom: 0;
+    left: 1050px;
+    color: grey;
+    
+}
+
+#tituloSkills{
+    position: absolute;
+    bottom: 3%;
+    left: 935px;
+    color: grey;
+}
